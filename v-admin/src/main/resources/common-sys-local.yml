@@ -1,0 +1,24 @@
+elasticsearch:
+  schema: http
+  address: 127.0.0.1:9200
+  connectTimeout: 5000
+  socketTimeout: 10000
+  connectionRequestTimeout: 5000
+  maxConnectNum: 100
+  maxConnectPerRoute: 100
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 100MB
+
+minio:
+  endpoint: http://123.207.198.100:9000
+  accessKey: epoch
+  secretKey: Tomcat@8090
+
+rsa:
+  keys:
+    file-public-key: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9Q0k3b9jdZeP2XgEL3ovyR0JqBbzTe24vgjhkqqPUMjAcE7oUbOIl5BDV89yiRwLHZAZkOv1S-jqo1hVJnZ5i3y5HnSlN6jPWi-XEdwxGUghMEPcQOnZ9e1IuOipSNyln2Rpdn5QVVtHG3HbnvDp2K_HgCek4g0TC-BGLxQ45oQIDAQAB
+    file-private-key: MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAL1DSTdv2N1l4_ZeAQvei_JHQmoFvNN7bi-COGSqo9QyMBwTuhRs4iXkENXz3KJHAsdkBmQ6_VL6OqjWFUmdnmLfLkedKU3qM9aL5cR3DEZSCEwQ9xA6dn17Ui46KlI3KWfZGl2flBVW0cbcdue8OnYr8eAJ6TiDRML4EYvFDjmhAgMBAAECgYBuwMREs6f1j12CW2pDVt0QT1D3GBpyq2VEWfDEP_MVBrWOiKC4uSrxv292tHjlYaanpcnzt21stE_FY1obtSfsc2vprm_vbyO1YQtchcy20NQ-59UaxMOeErEEZ153m0gv3UqIZZfXGOn-czcUXhScqQGN3Lx5hiphB3pCFMnQvQJBAO8UiJVFndTQkG5g8cOuktSIe2dLvfkKylnLWtpss0PpRMwLYW5veSmdAv3VlLkryPoR7nkvvx-CO1sRxkh7GVcCQQDKqDNdFKaynu0yYx94iu9L15h1CsCeBCswUy-Rrbo6B2WZcsf9vhTP6cKj2E9_7h3hk9qkDALXP3YQr0_Lz1HHAkBiopgO7Z_GEx3jS_-yea1-Hai73xXLT1ZYYXtkLgBvfiex_uf9heP49Rws2Rb4pkXOVeOK_9XcDACs-9JQSOkVAkEAxlPv2HMiZIJmLb6WCPknEPkQSdLZCIuZ3LQ8RHxZWPruMksDb877PTJO-tvxiYh2E9IH0i2zBgYkPFXlaNce9wJBANImVgikF3Krr9aAUDH8n3xq0zGr9cmxYZZS74v0yUmSits7qCYLkxMIkqtCP3ucuMfgEtGgydzGSE-7SAUnYvk
