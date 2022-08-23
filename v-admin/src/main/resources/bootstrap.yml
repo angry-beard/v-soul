@@ -11,7 +11,7 @@ spring:
         server-addr: localhost:8848
         file-extension: yml
         shared-configs: #公用配置文件
-          - data-id: common-sys-dev.yml
+          - data-id: v-common-sys-dev.yml
             refresh: true #是否支持自动刷新
-          - data-id: common-params-dev.yml
+          - data-id: v-common-params-dev.yml
             refresh: true

@@ -1,5 +1,6 @@
 package com.v.admin.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,8 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2022/8/8 15:14
  */
 @RequestMapping("admin")
-@RestController("")
+@RestController
 public class AdminController {
 
-
+    @GetMapping("hello")
+    public String hello() {
+        return "hello";
+    }
 }
