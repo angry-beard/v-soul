@@ -1,6 +1,6 @@
-FROM java:11
+FROM openjdk:11-jre
 # 预先编译好项目，然后直接找到 jar 进行 push
-MAINTAINER dizzy
+MAINTAINER angry_beard
 ## 复制文件到容器 leave-preview-7.01.jar
 ADD ./target/v-admin-0.0.1.jar /v-admin.jar
 ENV TZ=Asia/Shanghai
