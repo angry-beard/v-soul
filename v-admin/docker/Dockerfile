@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:11
 # 预先编译好项目，然后直接找到 jar 进行 push
 MAINTAINER dizzy
 ## 复制文件到容器 leave-preview-7.01.jar
